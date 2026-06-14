@@ -1,2 +1,6 @@
 [tools]
+rust = { version = "1.92.0", targets = "thumbv8m.main-none-eabihf" }
 "github:raspberrypi/picotool" = "2.2"
+
+[tasks]
+flash = "cargo run --release"

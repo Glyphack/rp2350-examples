@@ -38,3 +38,7 @@ url_api = "https://api.github.com/repos/raspberrypi/picotool/releases/assets/277
 checksum = "sha256:44b640b596fe0ab034c64a5a07d6648410b0631a12a151e06e24dc383a70cdd0"
 url = "https://github.com/raspberrypi/picotool/releases/download/2.2.0/picotool-2.2.0.tar.gz"
 url_api = "https://api.github.com/repos/raspberrypi/picotool/releases/assets/277389526"
+
+[[tools.rust]]
+version = "1.92.0"
+backend = "core:rust"
