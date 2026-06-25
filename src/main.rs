@@ -34,6 +34,6 @@ async fn main(_spawner: Spawner) {
         step.set_low();
         Timer::after_micros(1).await;
         step.set_high();
-        Timer::after_micros(625 * 3).await;
+        Timer::after_micros(625).await;
     }
 }
