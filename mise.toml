@@ -1,6 +1,7 @@
 [tools]
 rust = { version = "1.92.0", targets = "thumbv8m.main-none-eabihf" }
 "github:raspberrypi/pico-sdk-tools" = { version = "v2.2.0-3", matching = "picotool", bin = "picotool" }
+"cargo:probe-rs-tools" = "latest"
 
 [tasks]
 flash = "cargo run --release"
