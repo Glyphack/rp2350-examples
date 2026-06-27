@@ -15,3 +15,5 @@ embassy-futures = "0.1.2"
 embassy-rp = { version = "0.10.0", features = ["defmt", "time-driver", "critical-section-impl", "rp235xa", "binary-info"] }
 embassy-time = "0.5.1"
 panic-probe = { version = "1.0.0", features = ["defmt"] }
+embassy-usb-logger = "0.6.0"
+log = "0.4.33"
